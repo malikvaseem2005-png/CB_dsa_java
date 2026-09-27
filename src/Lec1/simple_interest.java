@@ -1,0 +1,15 @@
+package Lec1;
+
+public class simple_interest {
+
+	public static void main(String[] args) {
+		int p= 1000;
+		int r= 5;
+		int t = 1;
+		int interest = (p*r*t)/100;
+	    System.out.print(interest);
+		// TODO Auto-generated method stub
+
+	}
+
+}

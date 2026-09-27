@@ -1,0 +1,10 @@
+package home_work;
+
+public class pattern7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

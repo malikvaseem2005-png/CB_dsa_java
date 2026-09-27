@@ -1,0 +1,27 @@
+package Lec_8;
+
+public class Reverse_array_range {
+
+	public static void main(String[] args) {
+		int[] arr= {3,5,6,2,4,16,7,8,9};
+		Reverse(arr , 2,5);
+		for(int i=0; i<arr.length; i++) {
+			System.out.print(arr[i]+ " ");
+		}
+	}
+		public static void Reverse(int[] arr, int i ,int j) {
+			
+			while(i<j) {
+				int temp=arr[i];
+				arr[i] = arr[j];
+				arr[j] = temp;
+				i++;
+				j--;
+				
+			}
+			
+		// TODO Auto-generated method stub
+
+	}
+
+}
