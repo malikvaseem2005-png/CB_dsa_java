@@ -1,0 +1,21 @@
+package lec_15;
+
+public class power {
+
+	public static void main(String[] args) {
+		int a=3;
+		int n=4;
+		System.out.println(pow(a,n));//a^n
+	
+		// TODO Auto-generated method stub
+
+	}
+	public static int pow(int a ,int n) {
+		if(n==0) {
+			return 1;
+		}
+		int p= pow(a ,n-1);
+		return p*a;
+	}
+
+}
